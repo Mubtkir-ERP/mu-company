@@ -1,6 +1,6 @@
 ### Mu Company
 
-Mu
+Mu Company
 
 ### Installation
 
