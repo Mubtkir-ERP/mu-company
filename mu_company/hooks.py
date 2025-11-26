@@ -5,6 +5,10 @@ app_description = "Mu"
 app_email = "mu@company.com"
 app_license = "mit"
 
+fixtures = [
+	{"dt": "Custom Field", "filters": [["module", "=", "Mu Company"]]},
+]
+
 # Apps
 # ------------------
 
@@ -241,4 +245,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
