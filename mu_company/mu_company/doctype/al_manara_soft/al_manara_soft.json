@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-26 18:26:10.001510",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "next_details_section",
+  "almanara_package",
+  "usb_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "next_details_section",
+   "fieldtype": "Section Break",
+   "label": "Next Details"
+  },
+  {
+   "fieldname": "almanara_package",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Al-Manara Package",
+   "options": "Lite\nPro\nUltra\nElite\n\u064dSpecial"
+  },
+  {
+   "fieldname": "usb_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "USB No"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-26 18:27:48.669090",
+ "modified_by": "Administrator",
+ "module": "Mu Company",
+ "name": "Al-Manara Soft",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
