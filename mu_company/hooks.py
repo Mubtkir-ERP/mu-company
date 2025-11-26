@@ -7,6 +7,14 @@ app_license = "mit"
 
 fixtures = [
 	{"dt": "Custom Field", "filters": [["module", "=", "Mu Company"]]},
+	{
+        "dt": "Property Setter",
+        "filters": [
+            ["name", "in", [
+                 "Item-item_name-allow_in_quick_entry",
+            ]]
+        ]
+    },
 ]
 
 # Apps
