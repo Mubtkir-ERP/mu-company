@@ -1,0 +1,75 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-11-26 18:28:38.943127",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "daftra_package",
+  "account_no",
+  "support_no",
+  "section_break_onub",
+  "daftra_details_section",
+  "expiry_date",
+  "type_subscription"
+ ],
+ "fields": [
+  {
+   "fieldname": "daftra_package",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Daftra Package"
+  },
+  {
+   "fieldname": "account_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Account No"
+  },
+  {
+   "fieldname": "support_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Support No"
+  },
+  {
+   "fieldname": "section_break_onub",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "daftra_details_section",
+   "fieldtype": "Data",
+   "label": "Daftra Details"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "type_subscription",
+   "fieldtype": "Data",
+   "label": "Type Subscription"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-11-26 18:33:11.924808",
+ "modified_by": "Administrator",
+ "module": "Mu Company",
+ "name": "Daftra Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
