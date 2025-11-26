@@ -8,13 +8,17 @@ app_license = "mit"
 fixtures = [
 	{"dt": "Custom Field", "filters": [["module", "=", "Mu Company"]]},
 	{
-        "dt": "Property Setter",
-        "filters": [
-            ["name", "in", [
-                 "Item-item_name-allow_in_quick_entry",
-            ]]
-        ]
-    },
+		"dt": "Property Setter",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Item-item_name-allow_in_quick_entry",
+				],
+			]
+		],
+	},
 ]
 
 # Apps
@@ -149,13 +153,9 @@ fixtures = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Item": {"validate": "mu_company.events.cust_item.clear_auto_description"},
+}
 
 # Scheduled Tasks
 # ---------------
