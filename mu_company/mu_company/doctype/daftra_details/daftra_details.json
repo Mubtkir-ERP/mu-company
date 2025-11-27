@@ -12,7 +12,8 @@
   "section_break_onub",
   "daftra_details_section",
   "expiry_date",
-  "type_subscription"
+  "type_subscription",
+  "daftra_link"
  ],
  "fields": [
   {
@@ -55,13 +56,18 @@
    "fieldname": "type_subscription",
    "fieldtype": "Data",
    "label": "Type Subscription"
+  },
+  {
+   "fieldname": "daftra_link",
+   "fieldtype": "Data",
+   "label": "Daftra Link"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-11-26 18:33:11.924808",
+ "modified": "2025-11-27 16:54:49.525234",
  "modified_by": "Administrator",
  "module": "Mu Company",
  "name": "Daftra Details",
