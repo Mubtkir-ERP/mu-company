@@ -16,6 +16,7 @@ fixtures = [
 				[
 					"Item-item_name-allow_in_quick_entry",
 					"Customer-tax_id-allow_in_quick_entry",
+					"Customer-main-field_order",
 				],
 			]
 		],
