@@ -15,8 +15,8 @@ fixtures = [
 				"in",
 				[
 					"Item-item_name-allow_in_quick_entry",
-					"Customer-tax_id-allow_in_quick_entry",
 					"Customer-main-field_order",
+					"Customer-custom_vat_registration_number-allow_in_quick_entry",
 				],
 			]
 		],
