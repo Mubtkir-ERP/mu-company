@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:activity_name",
  "creation": "2025-11-26 15:24:02.955799",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -22,10 +23,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-26 17:20:00.071739",
+ "modified": "2025-12-02 15:39:06.125163",
  "modified_by": "Administrator",
  "module": "Mu Company",
  "name": "Activity Name",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
