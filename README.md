@@ -1,3 +1,21 @@
+<!-- MUBTKIR-UNIFIED-README-START -->
+## تخصيصات وإعدادات الشركة | Mu Company
+
+تطبيق لإدارة التخصيصات والبيانات الأساسية للشركات والمنشآت داخل ERPNext.
+* **الفئة المستهدفة:** الشركات والمجموعات التجارية العاملة على ERPNext.
+
+Company-level customizations and core business configurations for ERPNext.
+* **Target Audience:** Enterprises and multi-branch companies running ERPNext.
+
+### تواصل معنا | Contact & Sales — [مبتكر للأنظمة السحابية | Mubtkir ERP](https://mubtkir.com)
+
+* 🌐 **الموقع الرسمي | Website:** [Mubtkir ERP — حلول ERPNext السحابية](https://mubtkir.com)
+* 📧 **البريد الإلكتروني | Email:** [sales@mubtkir.com](mailto:sales@mubtkir.com)
+* 📱 **الجوال | Mobile:** [+966547706865](tel:+966547706865)
+* 💬 **واتساب | WhatsApp:** [+966126810486](https://wa.me/966126810486)
+
+<!-- MUBTKIR-UNIFIED-README-END -->
+
 ### Mu Company
 
 Mu Company
